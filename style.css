@@ -137,7 +137,8 @@ header {}
 
 #user-felt1 {
     background-image: url(svg_login/inputs.svg);
-    flex-basis: 9%;
+    width: 82.1vw;
+
     height: 13.4vw;
     margin-top: 20vw;
     margin-left: 8vw;
@@ -147,7 +148,7 @@ header {}
 
 #user-felt2 {
     background-image: url(svg_login/inputs.svg);
-    flex-basis: 9%;
+    width: 82.1vw;
     height: 13.4vw;
     margin-top: 10vw;
     margin-left: 8vw;
@@ -158,7 +159,8 @@ header {}
 
 #continue_knap {
     background-image: url(svg_login/Continue.svg);
-    flex-basis: 9%;
+    width: 82.1vw;
+
     height: 13.4vw;
     margin-top: 20vw;
     margin-left: 8vw;
@@ -166,7 +168,8 @@ header {}
 
 #facebook-knap {
     background-image: url(svg_login/Login.svg);
-    flex-basis: 9%;
+    width: 82.1vw;
+
     height: 13.4vw;
     margin-top: 10vw;
     margin-left: 8vw;
@@ -221,9 +224,9 @@ header {}
 
 
 .lille_box {
-    flex-basis: 30%;
-    margin-top: 3vw;
-    margin-left: 3vw;
+    flex-basis: 6.7rem;
+    margin-top: 0.7rem;
+    margin-left: 0.7rem;
     background-color: #ffffff;
     display: flex;
     justify-content: center;
@@ -234,10 +237,11 @@ header {}
 
 
 #medium_box {
-    flex-basis: 63%;
+
+    flex-basis: 13.9rem;
     background-color: #ffffff;
-    margin-left: 3vw;
-    margin-top: 3vw;
+    margin-left: 0.7rem;
+    margin-top: 0.7rem;
 
 
 
@@ -246,9 +250,9 @@ header {}
 
 .small_row {
     display: flex;
-    height: 30vw;
+    height: 6rem;
     background-color: #DEDCDB;
-    margin-right: 2.25vw;
+    margin-right: 0.7rem;
 }
 
 #row4 {
@@ -263,26 +267,26 @@ header {}
 }
 
 #row4 .lille_box {
-    flex-basis: 50%;
+
+    flex-basis: 5.5rem;
     background-color: #ffffff;
-    width: 30vw;
+    width: 6.6rem;
 }
 
 
 #stor_box {
-    width: 100%;
-    height: 52vw;
+    width: 13.8rem;
     background-color: white;
-    margin: 3vw;
+    margin: 0.8rem;
     margin-bottom: 0;
 }
 
 .last_row {
-    padding-bottom: 3vw;
+    padding-bottom: 0.6rem;
 }
 
 #medium_txt {
-    margin-top: 6vw;
+    margin-top: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -292,7 +296,7 @@ header {}
 }
 
 #stor_txt {
-    margin-top: 7vw;
+    margin-top: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -314,65 +318,65 @@ header {}
 
 #materialer_icon {
     background-image: url(svg/Folder.svg);
-    width: 11.6vw;
-    height: 11vw;
+    width: 2.6rem;
+    height: 2.5rem;
 }
 
 #skema_icon {
     background-image: url(svg/Calendar.svg);
-    width: 11vw;
-    height: 11vw;
+    width: 2.6rem;
+    height: 2.5rem;
 
 }
 
 #alert_icon {
     background-image: url(svg/Alert.svg);
-    width: 11vw;
-    height: 11vw;
+    width: 2.5rem;
+    height: 2.5rem;
 
 }
 
 #mail_icon {
     background-image: url(svg/Messages.svg);
-    width: 11vw;
-    height: 11vw;
+    width: 2.5rem;
+    height: 2.5rem;
 }
 
 #favoritter_icon {
     background-image: url(svg/Bookmark.svg);
-    width: 11vw;
-    height: 11vw;
+    width: 2.5rem;
+    height: 2.5rem;
 }
 
 #grupper_icon {
     background-image: url(svg/Group%201572.svg);
-    width: 14vw;
-    height: 9.8vw;
+    width: 3.2rem;
+    height: 2.2rem;
 
 }
 
 #chat_icon {
     background-image: url(svg/Group%201574.svg);
-    width: 18.6vw;
-    height: 12.6vw;
+    width: 4.2rem;
+    height: 2.8rem;
 }
 
 #search_icon {
     background-image: url(svg/Search.svg);
-    width: 11vw;
-    height: 11vw;
+    width: 2.5rem;
+    height: 2.5rem;
 }
 
 #afleveringer_Icon {
     background-image: url(svg/Component%205%20%E2%80%93%202.svg);
-    width: 12vw;
-    height: 12vw;
+    width: 2.6em;
+    height: 2.7rem;
 }
 
 .random_icon {
     background-image: url(svg/Path%20146.svg);
-    width: 9.3vw;
-    height: 9.3vw;
+    width: 2.1rem;
+    height: 9.1vw;
 }
 
 /*    Forsidens IKONER   */
@@ -381,7 +385,7 @@ header {}
 
 /*    MENU  */
 
-#sectionwrapper {
+.sectionwrapper {
     display: flex;
     background-color: #3F3140;
     flex-direction: column;
@@ -390,37 +394,40 @@ header {}
 
 #menu_top {
     display: flex;
-    flex-basis: 120vw;
+    flex-basis: 27.1rem;
     align-self: center;
-    margin-top: 10vw;
+
+    margin-top: 2.3rem;
 
 }
 
 #menu_fortryd {
-    flex-basis: 4vw;
-    width: 4vw;
+    flex-basis: 0.9rem;
+    width: 0.9rem;
     background-image: url(svg_menu/No.svg);
-    margin-left: 90vw;
-    margin-top: 5vw;
+    margin-left: 20rem;
+    margin-top: 1.2rem;
 
 
 }
 
 #menu_logo {
-    flex-basis: 10vw;
-    width: 39vw;
+    flex-basis: 2.5rem;
+    width: 9rem;
     background-image: url(svg_menu/Group%201582.svg);
-    margin-left: 30vw;
-    margin-top: 10vw;
+    margin-left: 6.6rem;
+    margin-top: 2rem;
     background-repeat: round;
 }
 
 #menu_txt {
-    flex-basis: 100vw;
+    flex-basis: 27.1rem;
     color: #F58E81;
-    margin-bottom: 20vw;
+    margin-bottom: 4rem;
     font-weight: 700;
-    line-height: 9vw;
+    text-align: center;
+    line-height: 2rem;
+    ;
 
 }
 
@@ -430,49 +437,263 @@ header {}
 }
 
 #log_ud {
-    flex-basis: 100vw;
+    flex-basis: 27.1rem;
     color: #FFFFFF;
-    margin-left: 40vw;
-    ;
+    margin-left: 10rem;
+
 
 }
 
 
 /*   MATRIALER    */
 
-#sectionwrapper1 {
+#materialer .sectionwrapper {
+    background-color: #FFFFFF;
+}
+
+
+
+
+
+
+#top_info {
     display: flex;
-    background-color: #ffffff;
+    background-color: #DEDCDB;
+
+}
+
+
+#top_info_right {
+    line-height: 0.6rem;
+    margin-left: 0.7rem;
+    font-weight: 700;
+    color: #707070;
+    margin-right: 7.2rem;
+
+
 
 
 }
 
-#col {
+#top_info_left {
+    line-height: 0.6rem;
+    font-weight: 700;
+    color: #707070;
+    margin-left: 5rem;
+
+
+}
+
+
+
+#dato {
     display: flex;
+    flex-direction: column;
+    background-color: #3F3140;
 
 }
 
-#top_left {
-    color: #707070;
-    background-color: #DEDCDB;
-    flex-basis: 50vw;
+#dato_txt {
+    color: #FFFFFF;
+    line-height: 0.6rem;
+    text-align: center;
+}
+
+
+#dato_pil {
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+
+#dato_pil_left {
+
+    width: 0.6rem;
+    height: 0.6rem;
+    background-image: url(svg_matrialer/Backward%20arrow%20small.svg);
+    margin-left: 8.5rem;
+
+
+}
+
+#dato_pil_right {
+
+    width: 0.6rem;
+    height: 0.6rem;
+    background-image: url(svg_matrialer/Arrow%20Small%20Right.svg);
+    margin-left: 4.5rem;
 
 
 
 }
 
-#top_right {
-    color: #707070;
-    background-color: #DEDCDB;
-    flex-basis: 50vw;
+#materiale_box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8rem;
+
 
 }
 
-#txt1 {
-    margin-left: 5vw;
-    margin-right: 50vw;
+#slide_intro {
+    display: flex;
+    background-color: #FFFFFF;
 }
 
-#txt2 {}
+#intro_txt {
+    margin-left: 0.8rem;
+    margin-top: 1rem;
+    background-color: #F2F1F0;
+    border: 0.7rem solid #F2F1F0;
+    font-size: 0.8rem;
+    color: #000000;
 
-#date {}
+}
+
+.pil_ned {
+    width: 0.7rem;
+    height: 0.7rem;
+    background-image: url(svg_matrialer/Down%20arrow.svg);
+    margin-left: 18.8rem;
+    border: 0.3vw solid #EA847C;
+
+}
+
+#slide_dag {
+    display: flex;
+    background-color: #FFFFFF;
+}
+
+#dag_txt {
+    margin-left: 0.8rem;
+    margin-top: 1rem;
+    background-color: #F2F1F0;
+    border: 0.7rem solid #F2F1F0;
+    color: #000000;
+    font-size: 0.8rem
+}
+
+
+
+#styletile {
+    display: flex;
+    background-color: #FFFFFF;
+}
+
+#style_txt {
+    margin-left: 0.8rem;
+    margin-top: 1rem;
+    background-color: #F2F1F0;
+    border: 0.7rem solid #F2F1F0;
+    color: #000000;
+    font-size: 0.8rem
+}
+
+#vedhaft {
+    width: 1.3rem;
+    height: 1.2rem;
+    background-image: url(svg_matrialer/Attachment.svg);
+    margin-left: 18.4rem;
+
+}
+
+#materialer_bottom {
+    display: flex;
+    background-color: #3F3140;
+
+
+}
+
+#skema_ikon {
+    flex-basis: 1.1rem;
+    height: 1.2rem;
+    background-image: url(svg_matrialer/calendar-icon.svg);
+    align-self: center;
+
+}
+
+#skema_txt {
+    flex-basis: 3.7rem;
+    color: #FFFFFF;
+    margin-left: 40vw;
+
+}
+
+#skema .sectionwrapper {
+    background-color: #FFFFFF;
+}
+
+
+#skema_box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 9rem;
+
+
+}
+
+#modul1 {
+    display: flex;
+    background-color: #FFFFFF;
+    height: 9rem;
+}
+
+#modul1_txt {
+    margin-left: 0.8rem;
+    margin-top: 1rem;
+    background-color: #F2F1F0;
+    border: 0.7rem solid #F2F1F0;
+    font-size: 0.8rem;
+    color: #000000;
+
+}
+
+.pil_ned {
+    width: 0.7rem;
+    height: 0.7rem;
+    background-image: url(svg_matrialer/Down%20arrow.svg);
+    margin-left: 18.8rem;
+    border: 0.3vw solid #EA847C;
+
+}
+
+#modul2 {
+    display: flex;
+    background-color: #FFFFFF;
+    height: 9rem;
+
+}
+
+#modul2_txt {
+    margin-left: 0.8rem;
+    margin-top: 1rem;
+    background-color: #F2F1F0;
+    border: 0.7rem solid #F2F1F0;
+    color: #000000;
+    font-size: 0.8rem
+}
+
+
+
+#modul3 {
+    display: flex;
+    background-color: #FFFFFF;
+    height: 9rem;
+
+}
+
+#modul3_txt {
+    margin-left: 0.8rem;
+    margin-top: 1rem;
+    background-color: #F2F1F0;
+    border: 0.7rem solid #F2F1F0;
+    color: #000000;
+    font-size: 0.8rem
+}
+
+#vedhaft {
+    width: 1.3rem;
+    height: 1.2rem;
+    background-image: url(svg_matrialer/Attachment.svg);
+    margin-left: 18.4rem;
+
+}

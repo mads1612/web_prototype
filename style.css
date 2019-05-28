@@ -137,6 +137,11 @@ header {}
 
 }
 
+#checkbox {
+    display: flex;
+    margin-left: 18rem;
+}
+
 .user-felt {
     border: 1px solid silver;
     border-radius: 25vw;
@@ -148,15 +153,17 @@ header {}
     outline: none;
 }
 
-#continue_knap {
-    background-image: url(svg_login/Continue.svg);
+#login_knap {
+    background-image: url(svg_login/Rectangle%20132.svg);
     width: 82.1vw;
-
     height: 13.4vw;
     margin-top: 20vw;
     margin-left: 8vw;
     border: 0;
-    background-color: white
+    background-color: #FAF7F7;
+
+
+
 }
 
 #facebook-knap {
@@ -167,9 +174,13 @@ header {}
     margin-top: 10vw;
     margin-left: 8vw;
     border: 0;
-    background-color: white;
+    background-color: #FAF7F7;
 }
 
+#login-funktion p {
+    margin-left: 3.5rem;
+    font-size: 0.8rem;
+}
 
 
 
@@ -215,7 +226,12 @@ header {}
 
 }
 
+#forside a {
+    text-decoration: none;
+    color: #F58E81;
 
+
+}
 
 
 .lille_box {
@@ -308,6 +324,11 @@ header {}
 
 
 
+}
+
+#menu_txt a {
+    color: #F58E81;
+    text-decoration: none;
 }
 
 

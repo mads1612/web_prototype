@@ -137,28 +137,15 @@ header {}
 
 }
 
-
-
-#user-felt1 {
-    background-image: url(svg_login/inputs.svg);
-    width: 82.1vw;
-
-    height: 13.4vw;
-    margin-top: 20vw;
-    margin-left: 8vw;
-
-
-}
-
-#user-felt2 {
-    background-image: url(svg_login/inputs.svg);
-    width: 82.1vw;
-    height: 13.4vw;
+.user-felt {
+    border: 1px solid silver;
+    border-radius: 25vw;
     margin-top: 10vw;
     margin-left: 8vw;
-    margin-bottom: 20vw;
-
-
+    width: 72.1vw;
+    height: 13.4vw;
+    padding-left: 10vw;
+    outline: none;
 }
 
 #continue_knap {
@@ -168,6 +155,8 @@ header {}
     height: 13.4vw;
     margin-top: 20vw;
     margin-left: 8vw;
+    border: 0;
+    background-color: white
 }
 
 #facebook-knap {
@@ -177,6 +166,8 @@ header {}
     height: 13.4vw;
     margin-top: 10vw;
     margin-left: 8vw;
+    border: 0;
+    background-color: white;
 }
 
 
@@ -395,6 +386,20 @@ header {}
     flex-direction: column;
 }
 
+#menu {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100%;
+}
+
+.menu_hidden {
+    display: none;
+}
+
+#menu .sectionwrapper {
+    height: 100%;
+}
 
 #menu_top {
     display: flex;
@@ -436,6 +441,9 @@ header {}
 }
 
 #menu_bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
     display: flex;
     background-color: #EA847C;
 }
